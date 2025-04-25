@@ -79,7 +79,7 @@ const PreviousWebinars = () => {
   return (
     <section className="bg-white">
       {/* Header */}
-      <div className="px-4 sm:px-8 md:px-12 pt-16 pb-6">
+      <div className="px-4 sm:px-8 md:px-12 pt-20 pb-6">
         <h1 className="text-2xl sm:text-3xl md:text-4xl text-center font-semibold text-lime-600">
           2nd To None Precision Firearms, LLC
         </h1>

@@ -3,6 +3,7 @@ import { Outlet } from "react-router-dom";
 import Navbar from "./Navbar/Navbar";
 import Footer from "./Footer/Footer";
 import BgFooter from "./Big Footer/BgFooter";
+import Cart from "./Cart/Cart"
 
 const Layout = () => {
   return (
@@ -13,6 +14,8 @@ const Layout = () => {
       </main>
       <BgFooter />
       <Footer />
+
+      <Cart />
     </div>
   );
 };
