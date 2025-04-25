@@ -16,6 +16,7 @@ import ShippingPolicy from "./pages/ShippingPolicy";
 import Gallery from "./pages/Gallery";
 import ReturnPolicy from "./pages/ReturnPolicy";
 import ScrollMemory from "./components/Scroll Memory/ScrollMemory";
+import WebinarDetail from "./pages/WebinarDetail";
 
 const App = () => {
   return (
@@ -37,6 +38,7 @@ const App = () => {
           <Route path="/ship-policy" element={<ShippingPolicy />} />
           <Route path="/gallery" element={<Gallery />} />
           <Route path="/return-policy" element={<ReturnPolicy />} />
+          <Route path="/webinar/:id" element={<WebinarDetail />} />
         </Route>
       </Routes>
     </>

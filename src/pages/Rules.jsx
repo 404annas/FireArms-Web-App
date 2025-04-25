@@ -10,7 +10,7 @@ const Rules = () => {
         </h1>
       </div>
 
-      <div className="relative h-72 sm:h-96 w-full">
+      <div className="relative h-72 w-full">
         <img
           className="h-full w-full object-cover"
           src="https://2ndtononeprecisionfirearms.com/wp-content/uploads/2024/04/dark-texture-background-fresh-central-wallpaper-dark-patterns-hd-wallpapers-of-the-day-of-dark-texture-background.webp"
