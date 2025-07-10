@@ -10,7 +10,7 @@ const navItems = [
   { label: "FAQs", path: "/faqs" },
   { label: "Contact", path: "/contact" },
   { label: "My Account", path: "/account" },
-  { label: "Login", path: "/login" },
+  { label: "Login", path: "https://precision-firearm-game.netlify.app" },
 ];
 
 const Navbar = () => {
@@ -58,10 +58,7 @@ const Navbar = () => {
         >
           {/* Close icon */}
           <div className="flex justify-end p-5">
-            <button
-              className="text-white"
-              onClick={() => setMenuOpen(false)}
-            >
+            <button className="text-white" onClick={() => setMenuOpen(false)}>
               <FaTimes size={20} />
             </button>
           </div>
