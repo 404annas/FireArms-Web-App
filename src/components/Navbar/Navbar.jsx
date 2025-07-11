@@ -9,7 +9,7 @@ const navItems = [
   { label: "Rules", path: "/rules" },
   { label: "FAQs", path: "/faqs" },
   { label: "Contact", path: "/contact" },
-  { label: "Register", path: "/account" },
+  // { label: "Register", path: "/account" },
   { label: "Login", path: "https://precision-firearm-game.netlify.app" },
 ];
 

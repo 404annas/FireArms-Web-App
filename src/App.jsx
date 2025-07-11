@@ -25,14 +25,14 @@ const App = () => {
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
-          <Route path="/webinars" element={<Webinars />} />
+          {/* <Route path="/webinars" element={<Webinars />} /> */}
           <Route path="/rules" element={<Rules />} />
           <Route path="/faqs" element={<Faqs />} />
           <Route path="/contact" element={<Contact />} />
-          <Route path="/account" element={<Account />} />
-          <Route path="/account/lost-password" element={<LostPassword />} />
+          {/* <Route path="/account" element={<Account />} /> */}
+          {/* <Route path="/account/lost-password" element={<LostPassword />} /> */}
           <Route path="/login" element={<Login />} />
-          <Route path="/previous-webinars" element={<PreviousWebinars />} />
+          {/* <Route path="/previous-webinars" element={<PreviousWebinars />} /> */}
           <Route path="/about" element={<About />} />
           <Route path="/policy" element={<Policy />} />
           <Route path="/ship-policy" element={<ShippingPolicy />} />
