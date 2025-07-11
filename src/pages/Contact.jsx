@@ -59,7 +59,7 @@ const Contact = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <p className="font-semibold text-lg">2932 Mistys Run Keller, TX 76244</p>
+              <p className="font-semibold text-base md:text-lg">2932 Mistys Run Keller, TX 76244</p>
             </a>{" "}
           </div>
 
@@ -67,14 +67,14 @@ const Contact = () => {
           <div className="flex flex-col items-center text-lime-700 hover:text-lime-600 text-sm sm:w-60 text-center transition-all duration-200">
             <IoCall className="text-3xl" />
             <a href="tel:+19727407953">
-              <p className="font-semibold text-lg">972-740-7953</p>
+              <p className="font-semibold text-base md:text-lg">972-740-7953</p>
             </a>{" "}
           </div>
 
           {/* Email */}
           <div className="flex flex-col items-center text-lime-700 hover:text-lime-600 text-sm sm:w-60 text-center transition-all duration-200">
             <IoMail className="text-3xl" />
-            <p className="font-semibold text-lg">
+            <p className="font-semibold text-base md:text-lg">
               <a href="mailto:admin@2ndtononeprecisionfirearms.com">
                 admin@2ndtononeprecisionfirearms.com
               </a>
