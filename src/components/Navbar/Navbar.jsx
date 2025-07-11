@@ -4,12 +4,12 @@ import { FaBars, FaTimes } from "react-icons/fa";
 
 const navItems = [
   { label: "Home", path: "/" },
-  { label: "Previous Webinars", path: "/previous-webinars" },
-  { label: "Webinars", path: "/webinars" },
+  // { label: "Previous Webinars", path: "/previous-webinars" },
+  // { label: "Webinars", path: "/webinars" },
   { label: "Rules", path: "/rules" },
   { label: "FAQs", path: "/faqs" },
   { label: "Contact", path: "/contact" },
-  { label: "My Account", path: "/account" },
+  { label: "Register", path: "/account" },
   { label: "Login", path: "https://precision-firearm-game.netlify.app" },
 ];
 

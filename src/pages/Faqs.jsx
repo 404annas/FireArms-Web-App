@@ -103,7 +103,7 @@ const Faqs = () => {
             </button>
             <div
               className={`transition-all duration-300 px-6 sm:px-8 overflow-hidden ${
-                openIndex === index ? "sm:max-h-48 max-h-fit py-8" : "max-h-0"
+                openIndex === index ? "sm:max-h-fit max-h-fit py-8" : "max-h-0"
               }`}
             >
               <p className="text-gray-700 text-md sm:text-lg mb-4">

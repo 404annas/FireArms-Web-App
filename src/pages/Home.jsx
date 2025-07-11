@@ -34,14 +34,16 @@ const Home = () => {
         </p>
 
         <div className="flex gap-3 flex-wrap justify-center">
-          <Link to={"/webinars"}>
+          <Link to={"/rules"}>
             <button className="bg-lime-500 hover:bg-lime-600 text-black font-semibold px-5 py-2.5 sm:px-6 sm:py-3 rounded-full transition">
-              Enter Webinars
+              Enter Rules
             </button>
           </Link>
-          <button className="bg-white hover:bg-gray-100 text-black font-semibold px-5 py-2.5 sm:px-6 sm:py-3 rounded-full transition">
-            Request Custom Work
-          </button>
+          <a href="mailto:admin@2ndtononeprecisionfirearms.com">
+            <button className="bg-white hover:bg-gray-100 text-black font-semibold px-5 py-2.5 sm:px-6 sm:py-3 rounded-full transition">
+              Request Custom Work
+            </button>
+          </a>
         </div>
       </div>
     </div>

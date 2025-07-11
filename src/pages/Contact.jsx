@@ -52,22 +52,32 @@ const Contact = () => {
 
         <div className="flex flex-col sm:flex-row flex-wrap items-center justify-center gap-8 mt-10">
           {/* Location */}
-          <div className="flex flex-col items-center text-lime-700 hover:text-lime-600 text-sm sm:text-2xl sm:w-60 text-center transition-all duration-200">
+          <div className="flex flex-col items-center text-lime-700 hover:text-lime-600 text-sm sm:w-60 text-center transition-all duration-200">
             <FaLocationArrow className="text-3xl" />
-            <p className="font-semibold">2932 Mistys Run Keller, TX 76244</p>
+            <a
+              href="https://www.google.com/maps/place/2932+Mistys+Run,+Fort+Worth,+TX+76244,+USA/@32.941533,-97.2955355,17z/data=!3m1!4b1!4m6!3m5!1s0x864dd990fa473df1:0x9613d8d598aec276!8m2!3d32.941533!4d-97.2955355!16s%2Fg%2F11cpq6gt88?sa=X&ved=1t:242&ictx=111&entry=tts"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <p className="font-semibold text-lg">2932 Mistys Run Keller, TX 76244</p>
+            </a>{" "}
           </div>
 
           {/* Phone */}
           <div className="flex flex-col items-center text-lime-700 hover:text-lime-600 text-sm sm:w-60 text-center transition-all duration-200">
             <IoCall className="text-3xl" />
-            <p className="font-semibold">972-740-7953</p>
+            <a href="tel:+19727407953">
+              <p className="font-semibold text-lg">972-740-7953</p>
+            </a>{" "}
           </div>
 
           {/* Email */}
           <div className="flex flex-col items-center text-lime-700 hover:text-lime-600 text-sm sm:w-60 text-center transition-all duration-200">
             <IoMail className="text-3xl" />
-            <p className="font-semibold">
-              admin@2ndtononeprecisionfirearms.com
+            <p className="font-semibold text-lg">
+              <a href="mailto:admin@2ndtononeprecisionfirearms.com">
+                admin@2ndtononeprecisionfirearms.com
+              </a>
             </p>
           </div>
         </div>

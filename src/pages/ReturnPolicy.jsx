@@ -82,20 +82,20 @@ const ReturnPolicy = () => {
           </p>
 
           <p>
-            If you choose not to use a carrier that offers tracking and do not
+            1. If you choose not to use a carrier that offers tracking and do not
             insure or declare the full value of the product, you will be
             responsible for any loss or damage to the product during shipping.
           </p>
 
           <p>
-            Content on this site may include embedded content (e.g. videos,
+            2. Content on this site may include embedded content (e.g. videos,
             images, articles, etc.). Embedded content from other websites
             behaves in the exact same way as if the visitor has visited the
             other website.
           </p>
 
           <p>
-            These websites may collect data about you, use cookies, embed
+            3. These websites may collect data about you, use cookies, embed
             additional third-party tracking, and monitor your interaction with
             that embedded content, including tracking your interaction if you
             have an account and are logged in to that website.
